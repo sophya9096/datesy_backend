@@ -1,0 +1,36 @@
+{
+	"name": "datesy",
+	"version": "1.0.0",
+	"description": "datesy",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"author": "muzammil",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.758.0",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"crypto": "^1.0.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-queue": "0.0.12",
+		"express-validator": "^6.5.0",
+		"jsonwebtoken": "^8.5.1",
+		"moment": "^2.28.0",
+		"mongodb": "^3.5.9",
+		"mongoose": "^5.9.18",
+		"mongoose-auto-increment": "^5.0.1",
+		"mongoose-unique-validator": "^2.0.3",
+		"multer": "^1.4.2",
+		"nodemailer": "^6.4.11",
+		"nodemailer-sendgrid-transport": "^0.2.0",
+		"socket.io": "^3.0.1",
+		"twilio": "^3.49.2",
+		"uuid": "^8.3.0"
+	}
+}

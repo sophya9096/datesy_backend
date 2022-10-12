@@ -1,0 +1,5 @@
+const sess = await mongoose.startSession();
+sess.startTransaction();
+something = await something.save({ session: sess });
+await sess.commitTransaction();
+return next(new HttpError("Something went wrong...", 401));
